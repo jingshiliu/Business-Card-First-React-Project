@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#root{
+    background-color: #355070;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    border-radius: 0.8em;
+    background-color: #343a40;
+    color: white;
+}
+
+#infoSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#infoSection img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#infoSection h1{
+    color: white;
+    margin-bottom: 0.1em;
+}
+
+#infoSection p{
+    color: orange;
+    font-weight: 200px;
+}
+
+#infoSection a[href='jingshi-liu.com']{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.contactMethod a{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1em;
+}
+
+
+#aboutSection, #interestsSection{
+    padding: 2em;
+    padding-top: 1em;
+}
+
+#aboutSection{
+    padding-bottom: 0;
+}
+
+#aboutSection h3, #interestsSection h3{
+    padding-bottom: 0.2em;
+}
+
+#aboutSection p, #interestsSection p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    background-color: #1b263b;
+    border-bottom-left-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+}
+
+footer a{
+    text-align: center;
+    color: white;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+
+
